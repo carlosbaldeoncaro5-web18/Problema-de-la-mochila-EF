@@ -280,7 +280,7 @@ class SistemaProgramacionDinamica:
         
         
         print("\n" + "=" * 50)
-        print("  ⚡ DP OPTIMIZADA (O(W) espacio)")
+        print("  DP OPTIMIZADA (O(W) espacio)")
         print("=" * 50)
         inicio = time.time()
         valor_opt = mochila_dp_optimizada(pesos, valores, self.capacidad)
